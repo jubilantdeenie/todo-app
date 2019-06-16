@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Header from './components/layout/Header';
 import Todos from './components/Todos';
+
 
 import './App.css';
 
@@ -14,7 +16,7 @@ class App extends Component {
       {
         id: 2,
         title: 'Work on A-Frame',
-        completed: true
+        completed: false
       }, 
       {
         id: 3,
@@ -44,6 +46,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <Todos todos={this.state.todos}
         markComplete={this.markComplete}
         delTodo={this.delTodo} />
