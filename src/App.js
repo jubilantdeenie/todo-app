@@ -43,8 +43,7 @@ class App extends Component {
   axios.post('https://jsonplaceholder.typicode.com/todos', {
     title,
     completed: false
-  })
-    .then( res => this.setState({ todos: 
+  }).then( res => this.setState({ todos: 
     [...this.state.todos, res.data] }));
  } 
 
