@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 
 export class AddTodo extends Component {
 
@@ -12,7 +13,8 @@ export class AddTodo extends Component {
         this.setState({ title: '' });
     }
 
-    onChange = (e) => this.setState({ [e.target.name]: e.target.value });
+    onChange = (e) => this.setState({ [e.target.name]: 
+    e.target.value });
 
     render () {
         return (
@@ -33,6 +35,11 @@ export class AddTodo extends Component {
             </form>
         )
     }
+}
+
+//Proptypes
+AddTodo.propTypes = {
+    AddTodo: PropTypes.func.isRequired,
 }
 
 export default AddTodo
