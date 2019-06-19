@@ -14,6 +14,8 @@ This is a responsive React app. It uses Axios and a JSON data list to populate t
 
 ## TL;DR
 
+Axios is currently not loading on the Github pages enviroment for this project. While this is being updated, please install the project locally and run to view. 
+
 In the project directory, you can run:
 
 * install all project dependencies with `npm install`
@@ -25,9 +27,9 @@ This project is created using Traversy Media's video "React JS Crash Course 2019
 
 ## Future developments
 
-Later iterations of this project will include mouseover and additional animations. 
+Later iterations of this project will include text animations and design updates. 
 
-From React: 
+## From React: 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
